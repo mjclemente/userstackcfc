@@ -1,13 +1,15 @@
 {
-    "author":"",
-    "bugs":"",
+    "author":"Matthew Clemente <mjclemente@gmail.com>",
+    "location":"jclemente/userstackcfc#v1.0.0",
+    "version":"1.0.0",
+    "bugs":"https://github.com/mjclemente/userstackcfc/issues",
     "changelog":"",
     "contributors":[],
     "dependencies":{},
-    "description":"",
+    "description":"A CFML wrapper for the userstack API to lookup and parse user-agent strings.",
     "devDependencies":{},
-    "documentation":"",
-    "homepage":"",
+    "documentation":"https://github.com/mjclemente/userstackcfc/blob/main/README.md",
+    "homepage":"https://github.com/mjclemente/userstackcfc",
     "ignore":[
         "**/.*",
         "/test/",
@@ -15,20 +17,19 @@
     ],
     "installPaths":{},
     "instructions":"",
-    "keywords":[],
+    "keywords":[ "user-agent", "api", "userstack"],
     "license":[
         {
-            "type":"",
-            "URL":""
+            "type":"MIT",
+            "URL":"https://github.com/mjclemente/userstackcfc/blob/main/LICENSE"
         }
     ],
-    "location":"ForgeboxStorage",
     "name":"userstackcfc",
     "private":false,
-    "projectURL":"",
+    "projectURL":"https://github.com/mjclemente/userstackcfc",
     "repository":{
-        "type":"",
-        "URL":""
+        "type":"git",
+        "URL":"https://github.com/mjclemente/userstackcfc"
     },
     "scripts":{},
     "shortDescription":"A CFML wrapper for the userstack API. Lookup and parse user-agent strings.",
@@ -53,6 +54,5 @@
         "watchDelay":500,
         "watchPaths":"**.cfc"
     },
-    "type":"modules",
-    "version":"0.0.0"
+    "type":"modules"
 }
